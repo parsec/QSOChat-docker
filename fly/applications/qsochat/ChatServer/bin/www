@@ -33,8 +33,8 @@ var freqPug = 'views/frequencies.pug';
 var hamqthcall = process.env.HAMQTH_USER;
 var hamqthapipw = process.env.HAMQTH_PASSWORD;
 var hamqthprog = customvars.hamqthprog;
-var tokenURL = 'http://www.hamqth.com/xml.php?u=' + hamqthcall + '&p=' + hamqthapipw; // include your HamQTH
-var lookupURL = 'http://www.hamqth.com/xml.php?id=';
+var tokenURL = 'https://www.hamqth.com/xml.php?u=' + hamqthcall + '&p=' + hamqthapipw; // include your HamQTH
+var lookupURL = 'https://www.hamqth.com/xml.php?id=';
 var googleMapURL = 'https://maps.google.com?q=';
 
 var renderUser = function(locals) {

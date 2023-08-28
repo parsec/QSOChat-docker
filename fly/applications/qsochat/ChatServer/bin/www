@@ -30,7 +30,7 @@ var usernames = {};
 
 var userPug = 'views/user.pug';
 var freqPug = 'views/frequencies.pug';
-var hamqthcall = process.env.HAMQTH_USER;
+var hamqthcall = customvars.hamqthcall;
 var hamqthapipw = process.env.HAMQTH_PASSWORD;
 var hamqthprog = customvars.hamqthprog;
 var tokenURL = 'https://www.hamqth.com/xml.php?u=' + hamqthcall + '&p=' + hamqthapipw; // include your HamQTH

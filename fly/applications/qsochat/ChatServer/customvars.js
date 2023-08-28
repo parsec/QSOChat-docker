@@ -1,4 +1,4 @@
-module.exports.hostname = '0.0.0.0'; // change to the hostname or IP of your host
+module.exports.hostname = ''; // change to the hostname or IP of your host
 module.exports.port = 80;
 module.exports.hamqthcall = process.env.HAMQTH_CALL;
 module.exports.hamqthapipw = process.env.HAMQTH_PASSWORD;

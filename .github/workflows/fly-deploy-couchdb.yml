@@ -2,7 +2,7 @@ name: fly-deploy-couchdb
 on:
     push:
         paths:
-            - 'fly/applications/couchdb'
+            - 'fly/applications/couchdb/**'
 jobs:
     deploy:
         name: Deploy 

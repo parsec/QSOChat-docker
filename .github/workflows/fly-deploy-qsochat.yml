@@ -2,7 +2,7 @@ name: fly-deploy-qsochat
 on:
     push:
         paths:
-            - 'fly/applications/qsochat'
+            - 'fly/applications/qsochat/**'
 jobs:
     deploy:
         name: Deploy 

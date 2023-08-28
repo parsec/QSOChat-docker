@@ -5,7 +5,7 @@ on:
             - 'fly/applications/qsochat/**'
 jobs:
     deploy:
-        name: Deploy 
+        name: Deploy qsochat
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3

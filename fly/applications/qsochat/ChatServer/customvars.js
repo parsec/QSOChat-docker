@@ -1,7 +1,7 @@
 module.exports.hostname = ''; // change to the hostname or IP of your host
 module.exports.port = 80;
-module.exports.hamqthcall = proc.sys.env.HAMQTH_USER;
-module.exports.hamqthapipw = proc.sys.env.HAMQTH_PASSWORD;
+module.exports.hamqthcall = $HAMQTH_CALL;
+module.exports.hamqthapipw = $HAMQTH_PASSWORD;
 module.exports.hamqthprog = 'kk4gq-qsochat';
 module.exports.title = 'KK4GQ QSOchat'; //change to your title for page
 module.exports.logo = '/images/d-star-logo.png'; //change to your logo in images directory

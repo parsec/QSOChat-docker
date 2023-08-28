@@ -4,7 +4,7 @@ module.exports.hamqthcall = '${HAMQTH_CALL}';
 module.exports.hamqthapipw = '${HAMQTH_PASSWORD}';
 module.exports.hamqthprog = 'kk4gq-qsochat';
 module.exports.title = 'KK4GQ QSOchat'; //change to your title for page
-module.exports.logo = '/images/d-star-logo.png'; //change to your logo in images directory
+module.exports.logo = '/images/kk4gq.png'; //change to your logo in images directory
 module.exports.links = [
         {href:'https://kk4gq.org',description:'Fayette County Amateur Radio Club'},
         {href:'https://github.com/g4klx',description:'G4KLX Software'},

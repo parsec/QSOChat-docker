@@ -25,7 +25,7 @@ var port = normalizePort(process.env.PORT || customvars.port);
 app.set('port', port);
 app.set('hostname',customvars.hostname);
 
-var db = new(cradle.Connection)('kk4gq-couchdb.internal').database('dash');
+var db = new(cradle.Connection)('kk4gq-couchdb.internal', 5984).database('dash');
 var usernames = {};
 
 var userPug = 'views/user.pug';

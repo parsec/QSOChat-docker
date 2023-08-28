@@ -15,6 +15,7 @@ var xml2js = require('xml2js');
 var parser = new xml2js.Parser();
 var cradle = require('cradle');
 var customvars = require('../customvars');
+var env = require('dotenv').config();
 
 /**
  * Get port from environment and store in Express.
